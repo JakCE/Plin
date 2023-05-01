@@ -1,0 +1,129 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;700&display=swap');
+
+*{
+   font-family: 'Signika Negative', sans-serif;
+}
+body{
+  margin:0;
+}
+#element-to-toggle {
+  margin: 0;
+  padding: 0;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #ffffff;
+ }
+ 
+ #element-to-toggle video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+ }
+ 
+ /*CONTENT*/
+ .content{
+   margin: 0px;
+   padding: 0px;
+   display: block;
+   align-items: center;
+   justify-content: center;
+   overflow-x: auto;
+ }
+ .head-app{
+   width: 100%;
+   height: 50px;
+   background-color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   overflow: hidden;
+ }
+
+ .search-part-app{
+   margin-top: 50px;
+   background-color: #f4f4f4;
+   width: 100%;
+   height: 135px;
+   padding-top: 5px;
+   padding-left: 20px;
+ }
+ .search-qr{
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+ }
+ .search-qr input{
+   width: 200px;
+   height: auto;
+   background-color: #fff;
+   outline: none;
+   border: none;
+ }
+ .buscar-img{
+   width: 300px;
+   height: 35px;
+   background-color: #fff;
+   display: inline-flex;
+   align-items: center;
+   justify-content: flex-start;
+   border: 1px solid #aeaeae;
+   border-radius: 5px;
+ }
+ h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+ .num-cel{
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: rgb(93, 154, 1);
+  
+ }
+ i{
+  color: rgb(93, 154, 1);
+  margin-left: 10px;
+  margin-right: 10px;
+ }
+ .bx.bx-qr{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+ }
+ .contacts{
+  padding-left: 20px;
+  padding-right: 20px;
+ }
+ .contenido-contactos{
+  display: block;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fff;
+  margin: 5px;
+  padding: 15px;
+  border: 1px solid #c9c9c9;
+  box-shadow: 2px 2px 5px 0px #c9c9c9;
+  border-radius: 10px;
+ }
+ hr{
+  border: 0.5px solid #e8e8e8;
+  background-color: #e8e8e8;
+ }
+.contact-datos span{
+  padding-top:5px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+.contact-datos p{
+  padding-top:5px;
+  padding-bottom: 5px;
+  margin:0;
+  font-weight: 100;
+  color: #aeaeae;
+}
